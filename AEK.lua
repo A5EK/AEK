@@ -127,13 +127,13 @@ print("\27[36m"..[[
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 |-------------------------------------------|
 |This Source Was Developed By (AEKAN) @A3KON.|
-|  This Is The Source Channel @lWXlX .   |
+|  This Is The Source Channel @rr_200r .   |
 |               - AEK -                 |
 ---------------------------------------------
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n━───━ ♕ ━───━ ♕ ━───━ ♕ ━───━\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m━───━ ♕ ━───━ ♕ ━───━ ♕ ━───━\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId
-SudoIds = {Config.SudoIds,1282287063}
+SudoIds = {Config.SudoIds,1987818465}
 AEK = Config.AEK
 TokenBot = Config.TokenBot
 NameBot = (DevAek:get(AEK..'Aek:NameBot') or 'لايون')
@@ -598,7 +598,7 @@ ChekName = utf8.sub(Name,0,Num) Name = ChekName return Name..''
 end
 
 local AekRank = function(msg) if SudoId(msg.sender_user_id_) then AEKTEAM  = "المطور" elseif SecondSudo(msg) then AEKTEAM = "المطور" elseif SudoBot(msg) then AEKTEAM = "المطور" elseif ManagerAll(msg) then AEKTEAM = "المدير" elseif AdminAll(msg) then AEKTEAM = "الادمن" elseif AekConstructor(msg) then AEKTEAM = "المنشئ" elseif BasicConstructor(msg) then AEKTEAM = "المنشئ" elseif Constructor(msg) then AEKTEAM = "المنشئ" elseif Manager(msg) then AEKTEAM = "المدير" elseif Admin(msg) then AEKTEAM = "الادمن" else AEKTEAM = "العضو" end return AEKTEAM end
-function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1282287063) then AEKTEAM = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(AEK) then AEKTEAM = 'البوت' elseif SudoId(user_id) then AEKTEAM = 'المطور الاساسي' elseif DevAek:sismember(AEK..'Aek:SecondSudo:', user_id) then AEKTEAM = 'المطور الثانوي' elseif DevAek:sismember(AEK..'Aek:SudoBot:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAek:sismember(AEK..'Aek:ManagerAll:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAek:sismember(AEK..'Aek:AdminAll:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAek:sismember(AEK..'Aek:VipAll:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAek:sismember(AEK..'Aek:AekConstructor:'..chat_id, user_id) then AEKTEAM = 'منشئ المجموعه' elseif DevAek:sismember(AEK..'Aek:BasicConstructor:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAek:sismember(AEK..'Aek:Constructor:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAek:sismember(AEK..'Aek:Managers:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Managers:Rd"..chat_id) or 'المدير' elseif DevAek:sismember(AEK..'Aek:Admins:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Admins:Rd"..chat_id) or 'الادمن' elseif DevAek:sismember(AEK..'Aek:VipMem:'..chat_id, user_id) then  AEKTEAM = DevAek:get(AEK.."Aek:VipMem:Rd"..chat_id) or 'المميز' elseif DevAek:sismember(AEK..'Aek:Cleaner:'..chat_id, user_id) then  AEKTEAM = DevAek:get(AEK.."Aek:Cleaner:Rd"..chat_id) or 'المنظف' else AEKTEAM = DevAek:get(AEK.."Aek:mem:Rd"..chat_id) or 'العضو' end return AEKTEAM end
+function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1987818465) then AEKTEAM = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(AEK) then AEKTEAM = 'البوت' elseif SudoId(user_id) then AEKTEAM = 'المطور الاساسي' elseif DevAek:sismember(AEK..'Aek:SecondSudo:', user_id) then AEKTEAM = 'المطور الثانوي' elseif DevAek:sismember(AEK..'Aek:SudoBot:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAek:sismember(AEK..'Aek:ManagerAll:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAek:sismember(AEK..'Aek:AdminAll:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAek:sismember(AEK..'Aek:VipAll:', user_id) then AEKTEAM = DevAek:get(AEK.."Aek:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAek:sismember(AEK..'Aek:AekConstructor:'..chat_id, user_id) then AEKTEAM = 'منشئ المجموعه' elseif DevAek:sismember(AEK..'Aek:BasicConstructor:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAek:sismember(AEK..'Aek:Constructor:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAek:sismember(AEK..'Aek:Managers:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Managers:Rd"..chat_id) or 'المدير' elseif DevAek:sismember(AEK..'Aek:Admins:'..chat_id, user_id) then AEKTEAM = DevAek:get(AEK.."Aek:Admins:Rd"..chat_id) or 'الادمن' elseif DevAek:sismember(AEK..'Aek:VipMem:'..chat_id, user_id) then  AEKTEAM = DevAek:get(AEK.."Aek:VipMem:Rd"..chat_id) or 'المميز' elseif DevAek:sismember(AEK..'Aek:Cleaner:'..chat_id, user_id) then  AEKTEAM = DevAek:get(AEK.."Aek:Cleaner:Rd"..chat_id) or 'المنظف' else AEKTEAM = DevAek:get(AEK.."Aek:mem:Rd"..chat_id) or 'العضو' end return AEKTEAM end
 
 function RankChecking(user_id,chat_id)
 if SudoId(user_id) then
@@ -669,7 +669,7 @@ end
 function ReplyStatus(msg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,dp) 
 if dp.first_name_ ~= false then
-local UserName = (dp.username_ or "lWXlX")
+local UserName = (dp.username_ or "rr_200r")
 for gmatch in string.gmatch(dp.first_name_, "[^%s]+") do
 dp.first_name_ = gmatch
 end
@@ -1120,19 +1120,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local mrAek = DevAek:get(AEK.."Comd:New:rt:Aek:"..DEV_AEEKAN..msg.chat_id_)
 if mrAek == "مميز" and VipMem(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 DevAek:set(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_AEEKAN) 
 DevAek:sadd(AEK..'Aek:VipMem:'..msg.chat_id_, result.sender_user_id_)
 elseif mrAek == "ادمن" and Admin(msg) then 
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 DevAek:set(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_AEEKAN)
 DevAek:sadd(AEK..'Aek:Admins:'..msg.chat_id_, result.sender_user_id_)
 elseif mrAek == "مدير" and Manager(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 DevAek:set(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_AEEKAN)  
 DevAek:sadd(AEK..'Aek:Managers:'..msg.chat_id_, result.sender_user_id_)
 elseif mrAek == "عضو" then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 end
 end,nil)   
 end   
@@ -1146,19 +1146,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local mrAek = DevAek:get(AEK.."Comd:New:rt:Aek:"..DEV_AEEKAN..msg.chat_id_)
 if mrAek == "مميز" and VipMem(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 DevAek:srem(AEK..'Aek:VipMem:'..msg.chat_id_, result.sender_user_id_)
 DevAek:del(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrAek == "ادمن" and Admin(msg) then 
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 DevAek:srem(AEK..'Aek:Admins:'..msg.chat_id_, result.sender_user_id_)
 DevAek:del(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrAek == "مدير" and Manager(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 DevAek:srem(AEK..'Aek:Managers:'..msg.chat_id_, result.sender_user_id_)
 DevAek:del(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrAek == "عضو" then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..DEV_AEEKAN..' ❩ بنجاح', 1, 'md')
 end
 end,nil)   
 end   
@@ -1172,19 +1172,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local mrAek = DevAek:get(AEK.."Comd:New:rt:Aek:"..text1[2]..msg.chat_id_)
 if mrAek == "مميز" and VipMem(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAek:sadd(AEK..'Aek:VipMem:'..msg.chat_id_, result.id_)
 DevAek:set(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrAek == "ادمن" and Admin(msg) then 
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAek:sadd(AEK..'Aek:Admins:'..msg.chat_id_, result.id_)
 DevAek:set(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrAek == "مدير" and Manager(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAek:sadd(AEK..'Aek:Managers:'..msg.chat_id_, result.id_)
 DevAek:set(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrAek == "عضو" then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 end
 else
 Dev_Aek(msg.chat_id_, msg.id_, 1, "♕︙*المعرف غير صحيح*", 1, 'md')
@@ -1200,19 +1200,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local mrAek = DevAek:get(AEK.."Comd:New:rt:Aek:"..text1[2]..msg.chat_id_)
 if mrAek == "مميز" and VipMem(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAek:srem(AEK..'Aek:VipMem:'..msg.chat_id_, result.id_)
 DevAek:del(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrAek == "ادمن" and Admin(msg) then 
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAek:srem(AEK..'Aek:Admins:'..msg.chat_id_, result.id_)
 DevAek:del(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrAek == "مدير" and Manager(msg) then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevAek:srem(AEK..'Aek:Managers:'..msg.chat_id_, result.id_)
 DevAek:del(AEK.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrAek == "عضو" then
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'lWXlX')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙العضو ↫ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'rr_200r')..')'..' ❩\n♕︙تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 end
 else
 Dev_Aek(msg.chat_id_, msg.id_, 1, "♕︙*المعرف غير صحيح*", 1, 'md')
@@ -1285,7 +1285,7 @@ end end
 if text == '/start' and ChCheck(msg) then  
 if not DevAek:get(AEK..'Aek:Start:Time'..msg.sender_user_id_) then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,dp) 
-local inline = {{{text="♕ المطور .",url="t.me/"..(dp.username_ or "lWXlX")}}}
+local inline = {{{text="♕ المطور .",url="t.me/"..(dp.username_ or "rr_200r")}}}
 local start = DevAek:get(AEK.."Aek:Start:Bot")
 if start then 
 Start_Source = start
@@ -1301,7 +1301,7 @@ end
 
 if not SecondSudo(msg) and not DevAek:sismember(AEK..'Aek:Ban:Pv',msg.sender_user_id_) and not DevAek:get(AEK..'Aek:Texting:Pv') then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,chat) 
-Dev_Aek(msg.sender_user_id_, msg.id_, 1, '♕︙تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "lWXlX")..')', 1, 'md') 
+Dev_Aek(msg.sender_user_id_, msg.id_, 1, '♕︙تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "rr_200r")..')', 1, 'md') 
 tdcli_function({ID="ForwardMessages",chat_id_=DevId,from_chat_id_= msg.sender_user_id_,message_ids_={[0]=msg.id_},disable_notification_=1,from_background_=1},function(arg,data) 
 tdcli_function({ID="GetUser",user_id_=msg.sender_user_id_},function(arg,dp) 
 if data and data.messages_ and data.messages_[0] ~= false and data.ID ~= "Error" then
@@ -2148,7 +2148,7 @@ text = '• نورت حبي \n• [firstname lastname] \n• [@username]'
 end
 local text = text:gsub('firstname',(result.first_name_ or ''))
 local text = text:gsub('lastname',(result.last_name_ or ''))
-local text = text:gsub('username',(result.username_ or 'lWXlX'))
+local text = text:gsub('username',(result.username_ or 'rr_200r'))
 Dev_Aek(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end 
 if DevAek:get(AEK.."Aek:Lock:Welcome"..msg.chat_id_) then
@@ -2200,7 +2200,7 @@ text = '• نورت حبي \n• [firstname lastname] \n• [@username]'
 end
 local text = text:gsub('firstname',(msg.content_.members_[0].first_name_ or ''))
 local text = text:gsub('lastname',(msg.content_.members_[0].last_name_ or ''))
-local text = text:gsub('username',(msg.content_.members_[0].username_ or 'lWXlX'))
+local text = text:gsub('username',(msg.content_.members_[0].username_ or 'rr_200r'))
 Dev_Aek(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
 
@@ -3485,7 +3485,7 @@ Dev_Aek(msg.chat_id_, msg.id_, 1,[[
 ━───━ ♕ ━───━
 ♕︙نقاطي • بيع نقاطي
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]], 1, 'md')
 else
 Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙عذرا الالعاب معطله في المجموعه', 1, 'md')
@@ -3659,11 +3659,11 @@ local text =  [[
 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙎𝙊𝙐𝙍𝘾𝙀
 ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/rr_200r)
 
-♕︙[𝙀𝙓𝙋 𝙎𝙊𝙐𝙍𝘾𝙀](https://t.me/lWXlX)
+♕︙[𝙀𝙓𝙋 𝙎𝙊𝙐𝙍𝘾𝙀](https://t.me/rr_200r)
 
-♕︙[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍](https://t.me/PP_L8)
+♕︙[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍](https://t.me/A_llo1)
 
 ♕︙[𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍](https://t.me/A3kon)
 
@@ -3832,7 +3832,7 @@ if tonumber(result.id_) == tonumber(DevId) then
 Dev_Aek(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
-if tonumber(result.id_) == tonumber(1282287063) then 
+if tonumber(result.id_) == tonumber(1987818465) then 
 Dev_Aek(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
@@ -3863,7 +3863,7 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Aek(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-if tonumber(result.sender_user_id_) == tonumber(1282287063) then  
+if tonumber(result.sender_user_id_) == tonumber(1987818465) then  
 Dev_Aek(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
@@ -5666,7 +5666,7 @@ if dp.first_name_ == false then
 Dev_Aek(msg.chat_id_, msg.id_, 1, "♕︙حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "lWXlX")
+local UserName = (dp.username_ or "rr_200r")
 Dev_Aek(msg.chat_id_, msg.id_, 1, "♕︙منشئ المجموعه ↫ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md")  
 end,nil)   
 end
@@ -5883,7 +5883,7 @@ if dp.first_name_ == false then
 Dev_Aek(msg.chat_id_, msg.id_, 1, "♕︙حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "lWXlX")
+local UserName = (dp.username_ or "rr_200r")
 Dev_Aek(msg.chat_id_, msg.id_, 1, "♕︙تم رفع منشئ المجموعه ↫ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md") 
 DevAek:sadd(AEK.."Aek:AekConstructor:"..msg.chat_id_,dp.id_)
 end,nil)   
@@ -7770,7 +7770,7 @@ local TXTE = "♕︙اعدادات المجموعه ↫ ⤈\n━───━ ♕
 .."♕︙التكرار ↫ "..flood.."\n"
 .."♕︙عدد التكرار ↫ "..Flood_Num.."\n"
 .."♕︙عدد السبام ↫ "..spam_c.."\n"
-.."━───━ ♕ ━───━\n♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)\n"
+.."━───━ ♕ ━───━\n♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)\n"
 Dev_Aek(msg.chat_id_, msg.id_, 1, TXTE, 1, 'md')
 end
 end
@@ -8026,7 +8026,7 @@ if Audios.Info == true then
 local Text ='♕︙تم اختيار المقطع الصوتي لك'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '♕︙ ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ',url="t.me/lWXlX"}},
+{{text = '♕︙ ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ',url="t.me/rr_200r"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice='..URL.escape(Audios.info)..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -8296,7 +8296,7 @@ local TkeedList = DevAek:scard(AEK.."Aek:Aek:Tkeed:"..ChatId) or 0
 local AdminsList = DevAek:scard(AEK.."Aek:Admins:"..ChatId) or 0
 local VipList = DevAek:scard(AEK.."Aek:VipMem:"..ChatId) or 0
 local LinkGp = json:decode(https.request('https://api.telegram.org/bot'..TokenBot..'/exportChatInviteLink?chat_id='..ChatId))
-if LinkGp.ok == true then LinkGroup = LinkGp.result else LinkGroup = 't.me/lWXlX' end
+if LinkGp.ok == true then LinkGroup = LinkGp.result else LinkGroup = 't.me/rr_200r' end
 tdcli_function({ID ="GetChat",chat_id_=ChatId},function(arg,dp)
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = ChatId:gsub("-100",""),filter_ = {ID = "ChannelMembersAdministrators"},offset_ = 0,limit_ = 100},function(arg,data) 
 if dp.id_ then
@@ -8306,7 +8306,7 @@ if data.members_[i].status_.ID == "ChatMemberStatusCreator" then
 Manager_id = admins[i].user_id_
 tdcli_function ({ID = "GetUser",user_id_ = Manager_id},function(arg,Aek) 
 if Aek.first_name_ ~= false then
-ConstructorAek = "["..Aek.first_name_.."](T.me/"..(Aek.username_ or "lWXlX")..")"
+ConstructorAek = "["..Aek.first_name_.."](T.me/"..(Aek.username_ or "rr_200r")..")"
 else 
 ConstructorAek = "حساب محذوف"
 end
@@ -9025,7 +9025,7 @@ local text =  [[
 ♕︙م5 ↫ اوامر المطورين
 ♕︙م6 ↫ اوامر الاعضاء
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]] 
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end
@@ -9095,7 +9095,7 @@ local text =  [[
 ♕︙البوتات بالطرد
 ♕︙البوتات بالتقيد
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]]
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9170,7 +9170,7 @@ local text =  [[
 ♕︙تقييد يوم + عدد الايام
 ♕︙الغاء تقييد ↫ لالغاء التقييد بالوقت
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]]
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9234,7 +9234,7 @@ local text =  [[
 ♕︙ردود المدير • ردود المطور
 ♕︙ضافني • حساب العمر • الزخرفه
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]]
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9290,7 +9290,7 @@ local text =  [[
 ♕︙حذف • مسح ↫ الاسماء المكتومه
 ♕︙حذف جميع الرتب
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]]
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9374,7 +9374,7 @@ local text =  [[
 ♕︙ترحيب البوت • المغادره
 ♕︙البوت الخدمي • التواصل
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]]
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end end
@@ -9421,7 +9421,7 @@ local text =  [[
 ♕︙ايدي • كشف  ↫ بالرد • بالمعرف • بالايدي
 ♕︙تحويل + بالرد ↫ صوره • ملصق • صوت • بصمه
 ━───━ ♕ ━───━
-♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠 ོ](https://t.me/lWXlX)
+♕︙[ᯓ 𝙏𝙃𝙀 𝙇𝙄𝙊𝙉𝙎 𝗧☰⋀𝗠](https://t.me/rr_200r)
 ]]
 Dev_Aek(msg.chat_id_, msg.id_, 1, (Help or text), 1, 'md')
 end
@@ -9618,7 +9618,7 @@ Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙لم يتم تعيين قناة الا�
 end end end end
 
 if text == 'القناة' or text == 'قناة السورس' or text == 'قناه السورس' or text == 'قنات السورس' then 
-Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙Channel ↬ @lWXlX', 1, 'html')    
+Dev_Aek(msg.chat_id_, msg.id_, 1, '♕︙Channel ↬ @rr_200r', 1, 'html')    
 end 
 
 if Sudo(msg) then 
